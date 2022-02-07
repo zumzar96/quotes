@@ -8,8 +8,7 @@ import Layout from './components/layout/Layout';
 
 function App() {
     return (
-        <Layout>it p
-
+        <Layout>
             <Switch>
                 <Route path='/' exact>
                     <Redirect to='/quotes' />
